@@ -24,7 +24,7 @@ You will need the following info:
 | CF_DNS_ID | The domain's uniquie ID. This can be found by following this [link](https://api.cloudflare.com/#dns-records-for-a-zone-properties).|
 | CF_DNS_NAME | The domain name being updated |
 | CF_DNS_TYPE | Typically an "A" record. However could be any supported DNS type. |
-| GET_IP_ENDPOINT | The endpoint where you could pull your public IP address. This can be done in PHP by doing the following: `<?php echo $_SERVER['REMOTE_ADDR']; ?>` |
+| GET_IP_ENDPOINT | The endpoint where you could pull your public IP address. This can be done in PHP by doing the following: `<?php echo $_SERVER['REMOTE_ADDR']; ?>` Can also be used with [PHP IP Endpoint](https://github.com/MCloudLLC/php-ip-endpoint) project. |
 
 ## Example appsettings.json
 
