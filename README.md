@@ -39,3 +39,17 @@ You will need the following info:
     "GET_IP_ENDPOINT":"https://myechoendpoint.domain.com/"
 }
 ```
+
+## Build the Application
+
+For Windows:
+
+```bash
+dotnet publish -r win-x64 -p:PublishSingleFile=true --self-contained true
+```
+
+For Linux:
+
+```bash
+dotnet publish -r linux-x64 -p:PublishSingleFile=true --self-contained true
+```
